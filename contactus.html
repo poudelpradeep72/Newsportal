@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Head Part -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+<!-- add icon link -->
+<link rel="icon" href="./images/contact_icon.jpg" type="image/x-icon">
+
+<!-- css link -->
+<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    
+<!-- Header Part -->
+    <header class="contact_info" id="contact_info">
+        <section class="last_part" id="last_part">  
+            <h1>
+                <a href="/index.html">Contact Us</a>
+            </h1>
+        </section>
+    </header>
+    
+<!-- Main Part -->
+    <main>
+        <section class="location" id="location">
+            <p class="address_info" id="address_info">
+            <address>
+               Address: KATHMANDU, Nepal
+            </address>
+            </p>
+        </section>
+
+        <p class="phone" id="phone">
+            <em>Phone:</em> <a href="tel:+9779800001111">980000111</a>
+        </p>
+
+        <p class="email" id="email">
+            <em>Email: <a href="mailto:wow@info.com">wow@info.com</a></em>
+        </p>
+        <hr/>
+
+        <p class="google_map" id="google_map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.6717481709125!2d85.32528237418366!3d27.727419524608223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1943abdeb8d3%3A0xd519207a9c9fa312!2sTravel%20Free%20Travels!5e0!3m2!1sen!2snp!4v1711350280773!5m2!1sen!2snp" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </p>
+        <hr/>
+        </main>
+        
+<!--Footer Part -->
+        <footer class="last_part" id="last_part">
+            
+            <section>
+                <form action="https://httpbin.org/post" method="post">
+                   
+                    <P>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    </P>
+
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Password" required>
+                    </p>
+
+                    <p>
+                        <label for="number">Number</label>
+                        <input type="number" name="number" id="number" placeholder="Phone Number" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Your email" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message</label>
+                        <input type="text" name="message" id="message" cols="30" placeholder="message" required>
+                        <!-- wrong element used -->
+                    </p>
+
+                                        
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                    <hr/>
+
+
+                </form>
+    
+            </section>
+        </footer>
+</body>
+</html>
